@@ -1,13 +1,304 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container-fluid {
+  margin-top: 4rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.estrella {
+  width: 3rem;
+}
+
+.merchatarra {
+  box-shadow: 10px 10px 10px black;
+  border-radius: 10px;
+}
+
+/* NAVBAR */
+
+.logo-nav {
+  max-width: 150px;
+}
+
+nav .nav-link {
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav .nav-link:hover {
+  border-bottom: 2px solid black;
+}
+
+nav .active .nav-link {
+  border-bottom: 2px solid black;
+}
+
+
+/* INICIO */
+
+/* .video-header {
+  margin: 0;
+  padding: 0;
+  background-color: #1A191A;
+} */
+
+/* #header {
+  background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 212855, 0), rgba(128, 128, 128, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fheader-chatarra-md.png?alt=media&token=b35a9518-351b-40ee-8849-901431fb5e3f') no-repeat center center;    
+  height: 100%;    
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+  margin-bottom: 10%;  
+} */
+
+#header {
+  background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg_rock_duro.jpg?alt=media&token=a03e28bc-2a73-4bb2-8afb-3983e58089f3') no-repeat center bottom;    
+  height: 100%;    
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;            
+}
+
+.bg-blur {
+  backdrop-filter: blur(10px); 
+}
+
+#header img, #header a {
+  box-shadow: 10px 10px 10px black;
+  border-radius: 10px;
+}
+
+.logo-bio {
+  width: 30%;
+}
+
+#sala {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-speakers.jpg?alt=media&token=39d9eb6d-1734-4471-8db0-865f6d2928cb') no-repeat center center;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#bg-chus {
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2FHome%2FChus.jpeg?alt=media&token=12f83160-766a-43c9-be9c-c3be0e2151a7') no-repeat center center;
+  height: 30rem;
+  -ms-background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+
+}
+
+#bg-rod {
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2FHome%2FRod.jpeg?alt=media&token=92b2879d-b248-4bfc-9236-5bb99ad1afc3') no-repeat center center;
+  height: 30rem;
+  -ms-background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+#bg-dario {
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2FHome%2FDario.jpeg?alt=media&token=e118625a-c1e1-4a81-abe2-1151ae506db1') no-repeat center center;
+  height: 30rem;
+  -ms-background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.text-band {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.social-logos img {
+  max-width: 150px;
+}
+
+.social-logos a {
+  text-decoration: none;
+}
+
+/* DISCOGRAFIA */
+
+.bg-paper02 {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Falice-donovan-rouse-yu68fUQDvOI-unsplash.jpg?alt=media&token=095e5b61-3a67-4d61-bb6d-6742e39e6dcd') no-repeat center center;
+  height: 100%;
+  background-attachment: fixed;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#discografia .estrella {
+  width: 4rem;
+}
+
+.img-cover {
+  width: 100%;
+}
+
+.album {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+/* VIDEOS */
+
+.bg-paper03 {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fmanolo-chretien-RpC-9e0ORNM-unsplash.jpg?alt=media&token=0a43f41c-98de-4a53-b7f1-79d76bc8ce40') no-repeat center center;
+  height: 100%;
+  background-attachment: fixed;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* BIOGRAFIA */
+
+#biografia .estrella {
+  width: 5rem;
+}
+
+.img-band {
+  opacity: 0.7;
+}
+
+/* EVENTOS */
+.logo-songkick {
+max-width: 150px;
+}
+
+/* CONTACTO */
+
+.bg-paper01 {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fdan-cristian-padure-A3GeHVMmSdU-unsplash.jpg?alt=media&token=c7aca84e-a0d6-49d9-a566-b9b5a940ef0e') no-repeat center center;
+  height: 100%;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Rider */
+
+.bg-rider {
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Frider%2Fchatarra%20-%20sesion%20-%20jpg-139.jpg?alt=media&token=c185fab6-c24b-4648-b1d6-59762130f4a3') no-repeat center center;
+  height: 80vh;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-rider h1 {
+  text-shadow: 5px 5px #929292;
+}
+
+/* MODAL */
+
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 992px) {
+  #header a {
+      font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+/*     #header {
+      -ms-background-size: contain;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      background-position: top center;
+      height: 100%;
+      margin-bottom: 3%;
+  } */
+
+  #sala {
+      -ms-background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-attachment: unset;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .bg-paper02 {
+      background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Falice-donovan-rouse-yu68fUQDvOI-unsplash.jpg?alt=media&token=095e5b61-3a67-4d61-bb6d-6742e39e6dcd') no-repeat center center;
+      height: 100%;
+      -ms-background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+  .bg-paper03 {
+      background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fmanolo-chretien-RpC-9e0ORNM-unsplash.jpg?alt=media&token=0a43f41c-98de-4a53-b7f1-79d76bc8ce40') no-repeat center center;
+      height: 100%;
+      -ms-background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+  /* Rider */
+
+  .bg-rider {
+      background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Frider%2Fchatarra%20-%20sesion%20-%20jpg-139.jpg?alt=media&token=c185fab6-c24b-4648-b1d6-59762130f4a3') no-repeat;
+      height: 30vh;
+      -ms-background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+  .bg-rider h1 {
+      text-shadow: 5px 5px #929292;
+      font-size: 2rem;
+  }
+
+  /* dicografia */
+  .album {
+      font-size: 1rem;
+  }
+
+  .estrella {
+      display: none;
+  }
+
+  /* gira */
+  .gira-table {
+      font-size: 0.5rem;
+  }
+
+  /* contacto */
+  .fa-size {
+      font-size: 0.5rem;
+  }
+
 }
