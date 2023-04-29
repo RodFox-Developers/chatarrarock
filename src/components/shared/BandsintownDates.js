@@ -1,15 +1,14 @@
 function BandsintownDates() {
   return (
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center my-5">
-        <h4 class="text-muted">Próximas Fechas</h4>
+    <div className="row justify-content-center">
+      <div className="col-lg-8 text-center my-5">
+        <h4 className="text-muted">Próximas Fechas</h4>
         <script
-          charset="utf-8"
+          charSet="utf-8"
           src="https://widgetv3.bandsintown.com/main.min.js"
         ></script>
-        <a
-          role="button"
-          class="bit-widget-initializer"
+        <a          
+          className="bit-widget-initializer"
           data-artist-name="id_580527"
           data-background-color="#ffffff"
           data-separator-color="#DDDDDD"
