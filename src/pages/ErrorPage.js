@@ -1,5 +1,5 @@
-import Footer from "../components/Footer";
-import MainNavigation from "../components/MainNavigation";
+import Footer from "../components/shared/Footer";
+import MainNavigation from "../components//shared/MainNavigation";
 
 function ErrorPage() {
   return (
