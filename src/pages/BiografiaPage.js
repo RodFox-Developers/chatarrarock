@@ -1,8 +1,8 @@
+import Biografia from "../components/Biografia";
+
 function BiografiaPage() {
   return (
-    <>
-      <p>BiografiaPage</p>
-    </>
+    <Biografia />
   )
 }
 
