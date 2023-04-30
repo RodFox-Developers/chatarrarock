@@ -1,8 +1,8 @@
+import Cache from "../components/Cache";
+
 function CachePage() {
   return (
-    <>
-      <p>CachePage</p>
-    </>
+    <Cache/>
   )
 }
 
