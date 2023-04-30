@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import InicioPage from './pages/InicioPage';
 import DiscografiaPage, { loader as discografiaLoader } from './pages/DiscografiaPage';
-import VideosPage from './pages/VideosPage';
+import VideosPage, { loader as videosLoader } from './pages/VideosPage';
 import BiografiaPage from './pages/BiografiaPage';
 import EventosPage from './pages/EventosPage';
 import ContactoPage from './pages/ContactoPage';
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
   children: [
     { path:'/', element: <InicioPage /> },
     { path:'/discografia', element: <DiscografiaPage />, loader: discografiaLoader },
-    { path:'/videos', element: <VideosPage /> },
+    { path:'/videos', element: <VideosPage />, loader: videosLoader },
     { path:'/biografia', element: <BiografiaPage /> },
     { path:'/eventos', element: <EventosPage /> },
     { path:'/contacto', element: <ContactoPage /> },
