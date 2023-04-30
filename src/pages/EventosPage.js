@@ -1,8 +1,8 @@
+import Eventos from "../components/Eventos";
+
 function EventosPage() {
   return (
-    <>
-      <p>EventosPage</p>
-    </>
+    <Eventos />
   )
 }
 
