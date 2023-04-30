@@ -11,7 +11,11 @@ function InicioPage() {
     <>
       <BannerHome />
       <DescripcionHome />
-      <BandsintownDates />
+      <div className="row justify-content-center">
+        <div className="col-lg-8 text-center my-5">
+          <BandsintownDates />
+        </div>
+      </div>  
       <IntegrantesHome />
       <SpotifyHome />
       <MediaHome />
