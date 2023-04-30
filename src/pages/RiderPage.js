@@ -1,8 +1,8 @@
+import Rider from "../components/Rider";
+
 function RiderPage() {
   return (
-    <>
-      <p>RiderPage</p>
-    </>
+    <Rider/>
   )
 }
 
