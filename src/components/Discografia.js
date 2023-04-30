@@ -1,8 +1,8 @@
-function Discografia(discografia) {    
+function Discografia(props) {    
   return (
     <section id="albumes" className="bg-paper02 py-5">
       {
-        Object.values(discografia).map(x => x.map(album => {          
+        Object.values(props).map(x => x.map(album => {          
           return (
             <div className="row justify-content-center my-5">
               <div className="col-md-8 col-lg-6">
