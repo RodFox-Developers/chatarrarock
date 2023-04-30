@@ -1,29 +1,27 @@
-import React, { Component } from 'react';
+function Biografia() {
 
-class Biografia extends Component {
-  render() {
     return (
       <section> 
-        <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-band.jpg?alt=media&token=d346634c-504c-454d-89bf-bc9687552f76" class="img-fluid img-band" alt="Chatarra Rock"></img>                       
-        <div id="biografia" class="row">
-            <div class="col-12 text-center my-5">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
-                <h1 class="d-inline mx-4">Biografía</h1>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
+        <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-band.jpg?alt=media&token=d346634c-504c-454d-89bf-bc9687552f76" className="img-fluid img-band" alt="Chatarra Rock"></img>                       
+        <div id="biografia" className="row">
+            <div className="col-12 text-center my-5">
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <h1 className="d-inline mx-4">Biografía</h1>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
         </div>
         <hr/>
-        <div class="row mb-5 justify-content-around">
-            <div class="col-lg-12 mb-5 text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
-                <h3 class="d-inline mx-4">Formación actual (2020)</h3>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
+        <div className="row mb-5 justify-content-around">
+            <div className="col-lg-12 mb-5 text-center">
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <h3 className="d-inline mx-4">Formación actual (2020)</h3>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
-            <div class="col-lg-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra01.jpg?alt=media&token=d4efcaa9-d3ad-4b78-8f6e-2a65479d02e2" alt="chatarra band" class="img-fluid rounded"></img>
+            <div className="col-lg-4">
+            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra01.jpg?alt=media&token=d4efcaa9-d3ad-4b78-8f6e-2a65479d02e2" alt="chatarra band" className="img-fluid rounded"></img>
             </div>
 
-            <div class="col-lg-6 my-5 my-lg-0">
+            <div className="col-lg-6 my-5 my-lg-0">
                 <p>Actualmente Chatarra lo forman:</p>
                 <p><strong>Dario:</strong> &#32; Bajo y coros.</p>
                 <p><strong>Rodrigo:</strong> &#32; Batería.</p>
@@ -35,77 +33,77 @@ class Biografia extends Component {
             </div>
         </div>
         <hr/>
-        <div class="row mb-5 justify-content-around">
-            <div class="col-lg-12 mb-5 text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
-                <h3 class="d-inline mx-4">Quinta Formación (2010-2016)</h3>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
+        <div className="row mb-5 justify-content-around">
+            <div className="col-lg-12 mb-5 text-center">
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <h3 className="d-inline mx-4">Quinta Formación (2010-2016)</h3>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
-            <div class="col-lg-6 my-5 my-lg-0">
+            <div className="col-lg-6 my-5 my-lg-0">
                 <p>Con la marcha de Chus a vivir a la Costa Dorada, mas concretamente a El Vendrell, este tuvo que buscar nueva base ritmica para la banda.</p>
                 <p>La primera incorporación fué Marc Garriga, batería Suizo/Catalán residente en El Vebdrell, un batería muy técnico y con un gran compromiso con la banda que demostró durante unos 6 años de estancia en la misma.</p>
                 <p>El bajista que acabó por completar esta nueva formación fué Nando, natural de Menorca y residente en Barcelona Ciudad, un bajista muy de la onda setentera sicodelica y un gran corista, con esta formación siguieron actuando a lo largo y ancho de Cataluña, ademas de hacer algunas escapadas a Madrid, Aragón y Andorra.</p>
                 <p>Con esta formación que duró unos seis años mas o menos, registrarón un par de discos en directo (uno de ellos con video), un LP “Estrellaos del Rocanrol” y otro disco más en directo, pero esta vez en directo en estudio.</p>
             </div>
-            <div class="col-lg-4">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-quinta-formacion.jpeg?alt=media&token=f596228e-29ed-44af-92b7-ff9c8767bf17" alt="chatarra band" class="img-fluid"></img>
+            <div className="col-lg-4">
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-quinta-formacion.jpeg?alt=media&token=f596228e-29ed-44af-92b7-ff9c8767bf17" alt="chatarra band" className="img-fluid"></img>
             </div>
         </div>
         <hr/>
-        <div class="row mb-5 justify-content-around">
-            <div class="col-lg-12 mb-5 text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
-                <h3 class="d-inline mx-4">Cuarta Formación (2005-2010)</h3>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
+        <div className="row mb-5 justify-content-around">
+            <div className="col-lg-12 mb-5 text-center">
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <h3 className="d-inline mx-4">Cuarta Formación (2005-2010)</h3>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
-            <div class="col-lg-4">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-cuarta-formacion.jpeg?alt=media&token=827dd7b8-3a96-4368-8e52-f74bc27d8e76" alt="chatarra band" class="img-fluid"></img>
+            <div className="col-lg-4">
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-cuarta-formacion.jpeg?alt=media&token=827dd7b8-3a96-4368-8e52-f74bc27d8e76" alt="chatarra band" className="img-fluid"></img>
             </div>
-            <div class="col-lg-6 my-5 my-lg-0">
+            <div className="col-lg-6 my-5 my-lg-0">
                 <p>Con la incorporación de Jordi a la batería, la banda realizó multiples actuaciones sobre todo en Barcelona y alrededores, llegando a registrar un video/concierto en directo en una sala en BCN, de este disco no existe copia alguna pues el organizador se llevó el master y jamas se supo de él, es una pena porque fue toda una actuación registrada en audio y video con esta formación que estuvo junta casi cinco años (habría sido un buen recuerdo).</p>
                 <p>Así pues, con esta formación tan solo se registró un mini LP “Roda 2006”, que como su nombre indica, fué grabado en Roda de Bará (TGN) y fue producido por Luichi, primer batería de la banda.</p>
             </div>
         </div>
         <hr/>
-        <div class="row mb-5 justify-content-around">
-            <div class="col-lg-12 mb-5 text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
-                <h3 class="d-inline mx-4">Tercera Formación (2004)</h3>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
+        <div className="row mb-5 justify-content-around">
+            <div className="col-lg-12 mb-5 text-center">
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <h3 className="d-inline mx-4">Tercera Formación (2004)</h3>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
-            <div class="col-lg-6 my-5 my-lg-0">
+            <div className="col-lg-6 my-5 my-lg-0">
                 <p>Con esta tercera formación y con el abandono de Santos a la batería, Óscar y Chus incorporan a José Rivera. Batería natural de Gavà y conocido de ellos por moverse en los mismos círculos del rock del Baix Llobregat.</p>
                 <p>José era un baterista muy disciplinado,con un sentido de el tempo extraordinario y una técnica muy depurada. Con él, además de realizar diversos conciertos grabaron el que para Chusaco es el mejor disco de la época antigua de la banda. Disco que si bien respondió al título de  ̈Nuevo Milenio ̈, jamás fue editado , aunque actualmente es pieza clave de la discografía de Chatarra.</p>
                 <p>José en el tiempo que militó en Chatarra aporto mucho y enseñó a Óscar y Chus a mantener una disciplina en horarios, ensayos y a realizar canciones más ordenadas. Fue un trago muy duro para Chusaco y Óscar tener que sustituirlo por Jordi Rodenas (Hermano pequeño de Chus). Por ser un tío tan disciplinado, educado, trabajador y en definitiva un gran amigo con el que pasaron muy buenos momentos. Fue por el sonido por lo que decidieron sustituirlo después de mucho meditarlo. Óscar y Chus necesitaban en esos momentos un batería más agresivo, para el ideario del sonido al que aspiraban a conseguir y José era demasiado correcto para lo que ellos ambicionaban. Así que decidieron sustituirlo por Jordi, que, aunque no poseía la técnica que José, si imprimía más violencia a la batería, ya que era un batería más influenciado por el heavy metal más internacional y bandas poderosas de hard rock como Mötley Crüe etc,etc...</p>
             </div>
-            <div class="col-lg-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-tercera-formacion.jpeg?alt=media&token=6884e681-2db0-4f37-8229-82cd00d9037c" alt="chatarra band" class="img-fluid border border-dark rounded"></img>
+            <div className="col-lg-4">
+            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-tercera-formacion.jpeg?alt=media&token=6884e681-2db0-4f37-8229-82cd00d9037c" alt="chatarra band" className="img-fluid border border-dark rounded"></img>
             </div>
         </div>
         <hr/>
-        <div class="row mb-5 justify-content-around">
-            <div class="col-lg-12 mb-5 text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
-                <h3 class="d-inline mx-4">Segunda Formación (2003)</h3>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
+        <div className="row mb-5 justify-content-around">
+            <div className="col-lg-12 mb-5 text-center">
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <h3 className="d-inline mx-4">Segunda Formación (2003)</h3>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
-            <div class="col-lg-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-segunda-formacion.jpg?alt=media&token=cb12a1fc-db67-4c69-84a4-d655331d5057" alt="chatarra band" class="img-fluid rounded"></img>
+            <div className="col-lg-4">
+            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-segunda-formacion.jpg?alt=media&token=cb12a1fc-db67-4c69-84a4-d655331d5057" alt="chatarra band" className="img-fluid rounded"></img>
             </div>
 
-            <div class="col-lg-6 my-5 my-lg-0">
+            <div className="col-lg-6 my-5 my-lg-0">
                 <p>A la marcha de Luichi de la banda, Oscar y Chusaco incorporan a la batería a Santos.</p>
                 <p>Este baterista de gran técnica y potencia, era natural de Torredembarra (TGN) y afincado en              L ́Hospitalet de Llobregat, donde la banda ensayaba en aquel entonces. Estuvo con Chatarra un año escaso y lo más destacable de su paso por esta, fue ganar un concurso de bandas en la localidad de Gavà (BCN). Consecuencia de este primer premio obtenido en dicho concurso fue poder telonear a Barricada, banda que es y asido siempre una gran influencia para Chatarra. También la grabación de un mini lp “Rarezas” 2003, en los estudios KB Sound de el mismo Gavà.</p>            
             </div>
         </div>
         <hr/>
-        <div class="row mb-5 justify-content-around">
-            <div class="col-lg-12 mb-5 text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
-                <h3 class="d-inline mx-4">Primera Formación (2000-2002)</h3>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></img>
+        <div className="row mb-5 justify-content-around">
+            <div className="col-lg-12 mb-5 text-center">
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <h3 className="d-inline mx-4">Primera Formación (2000-2002)</h3>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
-            <div class="col-lg-6 my-5 my-lg-0">
+            <div className="col-lg-6 my-5 my-lg-0">
                 <p> En el verano del 2000, tres jóvenes de Gavà ( Barcelona ) se juntaban para dar vida a Chatarra.</p>
                 <p>Influenciados por el rock, punk, heavy y todo lo que tuviera que ver con el rock duro, empezaron los ensayos en Bellvitge y para el mes de noviembre de ese mismo año, ya estaban dando su primera actuación en el Roxy rock cafe de Poble Nou ( BCN ) y editando su primer larga duración " Es lo que hay".</p>
                 <p>Este disco fue grabado en los estudios KB sound de Gavà y los encargados del sonido y la producción fueron Tito Puerta y Juan Gonzalez. El disco se compone de once canciones originales de la banda y la versión " Rumor " de los míticos Triana. Aunque Luichi era el batería y corista , siempre cantaba alguna canción desde la batería y en este disco lo hizo en la canción " Mil y Una"...Años después formaría Diagnóstico Canalla donde él es el cantante principal.</p>
@@ -113,13 +111,12 @@ class Biografia extends Component {
                 <p>Este fue grabado en los estudios Ad Libitum de Gavà y del sonido se cuidó Josep Blay en su recién estrenado estudio. El disco contaba con seis canciones originales de las cuales Luichi cantó " De tres en tres".</p>
                 <p>Poco después de que este disco viese la luz , Luichi decidió abandonar la banda para experimentar nuevos ritmos y pasó a formar parte de la veterana banda del baix Llobregat Neurastenia.  </p>
             </div>
-            <div class="col-lg-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-primera-formacion.jpg?alt=media&token=8d3c67b7-759d-4dd4-8422-f8b18d7dfd2f" alt="chatarra band" class="img-fluid border border-dark rounded"></img>
+            <div className="col-lg-4">
+            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-primera-formacion.jpg?alt=media&token=8d3c67b7-759d-4dd4-8422-f8b18d7dfd2f" alt="chatarra band" className="img-fluid border border-dark rounded"></img>
             </div>
         </div>
     </section>
     );
-  }
 }
 
 export default Biografia;

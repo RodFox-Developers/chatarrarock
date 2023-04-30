@@ -1,46 +1,45 @@
-import React, { Component } from "react";
 import BandsintownDates from "./shared/BandsintownDates";
 
-class Eventos extends Component {
-  render() {
+function Eventos() {
+
     return (
-      <section class="">
-        <div class="row">
-          <div class="col-lg-12 mt-5 text-center">
+      <section>
+        <div className="row">
+          <div className="col-lg-12 mt-5 text-center">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08"
               alt="estrella chatarra"
-              class="img-fluid estrella"
+              className="img-fluid estrella"
             />
-            <h3 class="d-inline mx-4">Eventos</h3>
+            <h3 className="d-inline mx-4">Eventos</h3>
             <img
               src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08"
               alt="estrella chatarra"
-              class="img-fluid estrella"
+              className="img-fluid estrella"
             />
           </div>
         </div>
-        <div class="row justify-content-center py-5">
-          <div class="col-12 my-5 text-center">
-            <h4 class="text-muted">¡¡¡Síguenos en!!!</h4>
-            <nav class="nav justify-content-center my-4">
+        <div className="row justify-content-center py-5">
+          <div className="col-12 my-5 text-center">
+            <h4 className="text-muted">¡¡¡Síguenos en!!!</h4>
+            <nav className="nav justify-content-center my-4">
               <a
                 href="https://www.bandsintown.com/a/580527-chatarra"
                 target="_blank"
                 rel="noreferrer"
-                class="m-4"
+                className="m-4"
               >
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2FEventos%2FSongkick_logo.jpg?alt=media&token=92ce0005-1e71-435c-b77a-8dcc73f0c167"
                   alt="logo songkick"
-                  class="logo-songkick"
+                  className="logo-songkick"
                 />
               </a>
               <a
                 href="https://www.bandsintown.com/a/580527-chatarra"
                 target="_blank"
                 rel="noreferrer"
-                class="m-4"
+                className="m-4"
               >
                 <svg
                   width="156px"
@@ -54,9 +53,9 @@ class Eventos extends Component {
                   <g
                     id="Page-1"
                     stroke="none"
-                    stroke-width="1"
+                    strokeWidth="1"
                     fill="none"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                   >
                     <g id="Group" fill="#CCCCCC">
                       <path
@@ -87,23 +86,23 @@ class Eventos extends Component {
                 href="https://www.facebook.com/ChatarraRockDuro/events"
                 target="_blank"
                 rel="noreferrer"
-                class="m-4"
+                className="m-4"
               >
-                <i class="fab fa-facebook fa-lg"> Facebook Events</i>
+                <i className="fab fa-facebook fa-lg"> Facebook Events</i>
               </a>
             </nav>
-            <h6 class="text-muted">y nunca te pierdas un evento en directo.</h6>
-            <h6 class="text-muted">
+            <h6 className="text-muted">y nunca te pierdas un evento en directo.</h6>
+            <h6 className="text-muted">
               Recibe actualizaciones sobre nuevos programas, nueva música y más.
             </h6>
           </div>
-          <div class="col-12 col-md-8 text-center my-5">            
+          <div className="col-12 col-md-8 text-center my-5">            
             <BandsintownDates />
           </div>
         </div>
       </section>
     );
-  }
+
 }
 
 export default Eventos;

@@ -1,28 +1,27 @@
-import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-class Cache extends Component {
-  render() {
+function Cache() {
+
     return (
-      <section class="bg-paper01">
-        <div class="row">
-          <div class="col-lg-12 my-5 text-center">
+      <section className="bg-paper01">
+        <div className="row">
+          <div className="col-lg-12 my-5 text-center">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08"
               alt="estrella chatarra"
-              class="img-fluid estrella"
+              className="img-fluid estrella"
             />
-            <h3 class="d-inline mx-4">Cache</h3>
+            <h3 className="d-inline mx-4">Cache</h3>
             <img
               src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08"
               alt="estrella chatarra"
-              class="img-fluid estrella"
+              className="img-fluid estrella"
             />
           </div>
         </div>
-        <div class="row justify-content-center py-5">
-          <div class="col-12 col-md-8">
-            <table class="table table-striped gira-table">
+        <div className="row justify-content-center py-5">
+          <div className="col-12 col-md-8">
+            <table className="table table-striped gira-table">
               <thead>
                 <tr>
                   <th scope="col">Localización</th>
@@ -80,7 +79,7 @@ class Cache extends Component {
         </div>
       </section>
     );
-  }
+
 }
 
 export default Cache;
