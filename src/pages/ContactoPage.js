@@ -1,8 +1,8 @@
+import Contacto from "../components/Contacto";
+
 function ContactoPage() {
   return (
-    <>
-      <p>ContactoPage</p>
-    </>
+    <Contacto/>
   )
 }
 
