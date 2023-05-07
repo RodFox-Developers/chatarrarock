@@ -11,6 +11,10 @@
   border-radius: 10px;
 }
 
+.loading-spinner {
+  height: 100vh;
+}
+
 /* NAVBAR */
 
 .logo-nav {
