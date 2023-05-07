@@ -1,30 +1,40 @@
-function Discografia(props) {    
+import { useEffect, useState } from "react";
+import LoadingSpinner from "./shared/LoadingSpinner";
+
+function Discografia(props) {
+  const [discografia, setDiscografia] = useState([]);
+  
+  useEffect(() => {       
+    if (props.spotifyData.length > 0) {
+      setDiscografia(props.spotifyData);      
+    }    
+  }, [props.spotifyData]);
+
   return (
-    <section id="albumes" className="bg-paper02 py-5">
-      {
-        Object.values(props).map(x => x.map(album => {          
-          return (
-            <div className="row justify-content-center my-5">
-              <div className="col-md-8 col-lg-6">
-                <iframe
-                  title="Discografía Chatarra Rock"
-                  style={{borderRadius:'12px'}}
-                  src={album.spotify}
-                  width="100%"
-                  height="600px"
-                  frameBorder="0"
-                  allowtransparency="true"
-                  allow="encrypted-media"
-                ></iframe>
-              </div>
+    <>
+      {props.isLoading ? (
+        <LoadingSpinner />
+      ) : (
+        discografia.map((album) => (
+          <div className="row justify-content-center my-5">
+            <div className="col-md-8 col-lg-6">
+              <iframe
+                key={Math.random() * 6}
+                title="Discografía Chatarra Rock"
+                style={{ borderRadius: "12px" }}
+                src={`https://open.spotify.com/embed/album/${album.id}`}
+                width="100%"
+                height="600px"
+                frameBorder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
             </div>
-          )
-        }).reverse())
-      }
-    </section>
+          </div>
+        ))
+      )}      
+    </>
   );
 }
 
 export default Discografia;
-
-

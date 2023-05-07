@@ -1,7 +1,7 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import InicioPage from './pages/InicioPage';
-import DiscografiaPage, { loader as discografiaLoader } from './pages/DiscografiaPage';
+import DiscografiaPage from './pages/DiscografiaPage';
 import VideosPage, { loader as videosLoader } from './pages/VideosPage';
 import BiografiaPage from './pages/BiografiaPage';
 import EventosPage from './pages/EventosPage';
@@ -11,13 +11,15 @@ import CachePage from './pages/CachePage';
 import RootLayout from './pages/RootLayout';
 import ErrorPage from './pages/ErrorPage';
 
+
+
 const router = createBrowserRouter([
   { path:'/', 
   element: <RootLayout />,
   errorElement: <ErrorPage />,
   children: [
     { path:'/', element: <InicioPage /> },
-    { path:'/discografia', element: <DiscografiaPage />, loader: discografiaLoader },
+    { path:'/discografia', element: <DiscografiaPage /> },
     { path:'/videos', element: <VideosPage />, loader: videosLoader },
     { path:'/biografia', element: <BiografiaPage /> },
     { path:'/eventos', element: <EventosPage /> },

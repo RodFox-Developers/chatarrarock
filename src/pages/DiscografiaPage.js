@@ -1,22 +1,18 @@
-import { useLoaderData } from "react-router-dom";
 import Discografia from "../components/Discografia";
+import AlertsBanner from "../components/shared/AlertsBanner";
+import useSpotify from "../hooks/useSpotify";
 
 function DiscografiaPage() {
-
-  const discografia = useLoaderData();
+  const { albums, isLoading, error } = useSpotify();
 
   return (
-    <Discografia discografia={discografia} />
-  )
+    <section id="albumes" className="bg-paper02 py-5">
+      {error ? (
+        <AlertsBanner msg={error} type="danger" />
+      ) : (
+        <Discografia spotifyData={albums} isLoading={isLoading} />
+      )}
+    </section>
+  );
 }
 export default DiscografiaPage;
-
-export async function loader() {
-  const response = await fetch('https://chatarra-c89b9.firebaseio.com/albumes.json');
-  if(!response.ok) {
-    return;
-  } else {
-    const resData = await response.json();
-    return resData;
-  }
-}
