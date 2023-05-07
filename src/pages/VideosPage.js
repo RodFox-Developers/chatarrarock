@@ -1,21 +1,19 @@
-import { useLoaderData } from "react-router-dom";
 import Videos from "../components/Videos";
+import AlertsBanner from "../components/shared/AlertsBanner";
+import useYoutube from "../hooks/useYoutube";
 
 function VideosPage() {
-  const videosData = useLoaderData();
+  const { playlists, isLoading, error } = useYoutube();
+
   return (
-    <Videos videosData={videosData} />
-  )
+    <section id="videoclips" className="bg-paper03 py-5">
+      {error ? (
+        <AlertsBanner msg={error} type="danger" />
+      ) : (
+        <Videos playlists={playlists} isLoading={isLoading} />
+      )}
+    </section>
+  );
 }
 
 export default VideosPage;
-
-export async function loader() {
-  const response = await fetch('https://chatarra-c89b9.firebaseio.com/videos.json');
-  if(!response.ok) {
-    return;
-  } else {
-    const resData = await response.json();
-    return resData;
-  }
-}

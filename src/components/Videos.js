@@ -1,20 +1,31 @@
-import React from "react";
+import { useEffect, useState } from "react";
+import LoadingSpinner from "./shared/LoadingSpinner";
 
-const Videos = (props) => { 
+const Videos = (props) => {
+  const [videos, setVideos] = useState([]);
+
+  useEffect(() => {
+    if (props.playlists.length > 0) {
+      setVideos(props.playlists);
+    }
+  }, [props.playlists]);
+
   return (
-    <section id="videoclips" className="bg-paper03 py-5">
-      {
-        Object.values(props).map(x => x.map(video => {                   
-          return (
-            <div className="row my-5 justify-content-center">
+    <>
+      {props.isLoading ? (
+        <LoadingSpinner />
+      ) : (
+        videos.map((video) => (
+          <div className="row my-5 justify-content-center">
             <div className="col-lg-6">
               <div className="embed-responsive embed-responsive-16by9">
                 <iframe
+                  key={Math.random() * 6}
                   title="Videos Chatarra Rock"
                   className="embed-responsive-item"
                   width="100%"
                   height="450"
-                  src={video.youtube}
+                  src={`https://www.youtube-nocookie.com/embed/${video.snippet.resourceId.videoId}`}
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -22,10 +33,9 @@ const Videos = (props) => {
               </div>
             </div>
           </div>
-          )
-        }).reverse())
-      }
-    </section>
+        ))
+      )}
+    </>
   );
 };
 
