@@ -14,7 +14,7 @@ function IntegrantesHome() {
         <div className="card border-dark bg-dark text-light text-center mt-5 mt-lg-0 mx-lg-0 mx-5">
           <div id="bg-rod" className="card-body"></div>
           <div className="text-band pt-3">
-            <h4>Rodrigo</h4>
+            <h4>RodMetaL</h4>
             <p>Batería</p>
           </div>
         </div>

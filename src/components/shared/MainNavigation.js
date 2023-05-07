@@ -1,0 +1,91 @@
+import { NavLink } from "react-router-dom";
+
+function MainNavigation() {
+
+  const activeNav = ({ isActive }) => isActive ? 'active' : undefined;
+
+  return (
+    <header id="navbar">
+      <nav className="navbar navbar-expand-xl navbar-light bg-light fixed-top border-bottom">
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="navbar-brand ml-sm-5">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-chatarra.png?alt=media&token=0eb35722-dc14-42d1-ac4a-fb47bdcd1fab"
+            alt="logo chatarra rock"
+            className="d-inline-block align-top logo-nav"
+          />
+        </div>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav mx-auto">
+            <li id="inicio" className="nav-item mx-3 active">
+              <NavLink to="/" className={`nav-link inicio hide-toggle-navbar ${activeNav}`} end  >
+                Inicio
+              </NavLink>
+            </li>
+            <li id="discografia" className="nav-item mx-3">
+              <NavLink
+                to="/discografia"
+                className={`nav-link discografia hide-toggle-navbar ${activeNav}`}
+              >
+                Discografía
+              </NavLink>
+            </li>
+            <li id="videos" className="nav-item mx-3">
+              <NavLink to="/videos" className={`nav-link videos hide-toggle-navbar ${activeNav}`}>
+                Videos
+              </NavLink>
+            </li>
+            <li id="biografia" className="nav-item mx-3">
+              <NavLink to="/biografia" className={`nav-link bio hide-toggle-navbar ${activeNav}`}>
+                Biografía
+              </NavLink>
+            </li>
+            <li id="gira" className="nav-item mx-3">
+              <NavLink to="/eventos" className={`nav-link gira hide-toggle-navbar ${activeNav}`}>
+                Eventos
+              </NavLink>
+            </li>
+            <li id="contacto" className="nav-item mx-3">
+              <NavLink to="/contacto" className={`nav-link contacto hide-toggle-navbar ${activeNav}`}>
+                Contacto
+              </NavLink>
+            </li>
+            <li id="merch" className="nav-item mx-3">
+              <a
+                href="http://www.musikaze.com/chatarra-store"
+                className="nav-link contacto hide-toggle-navbar"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Merch
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a
+          href="https://music.chatarrarock.com/socialmedia"
+          target="_blank"
+          className="btn btn-lg ml-3 p-0"
+          rel="noreferrer"
+        >
+          <i className="far fa-music fa-lg m-0 p-0 text-success"></i>
+          <p className="text-muted m-0 p-0 text-success">
+            <small>Play</small>
+          </p>
+        </a>
+      </nav>
+    </header>
+  );
+}
+
+export default MainNavigation;

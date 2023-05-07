@@ -1,14 +1,40 @@
-import BannerHome from './components/home/BannerHome';
-import DescripcionHome from './components/home/DescripcionHome';
-import IntegrantesHome from './components/home/IntegrantesHome';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
+import InicioPage from './pages/InicioPage';
+import DiscografiaPage from './pages/DiscografiaPage';
+import VideosPage, { loader as videosLoader } from './pages/VideosPage';
+import BiografiaPage from './pages/BiografiaPage';
+import EventosPage from './pages/EventosPage';
+import ContactoPage from './pages/ContactoPage';
+import RiderPage from './pages/RiderPage';
+import CachePage from './pages/CachePage';
+import RootLayout from './pages/RootLayout';
+import ErrorPage from './pages/ErrorPage';
+
+
+
+const router = createBrowserRouter([
+  { path:'/', 
+  element: <RootLayout />,
+  errorElement: <ErrorPage />,
+  children: [
+    { path:'/', element: <InicioPage /> },
+    { path:'/discografia', element: <DiscografiaPage /> },
+    { path:'/videos', element: <VideosPage />, loader: videosLoader },
+    { path:'/biografia', element: <BiografiaPage /> },
+    { path:'/eventos', element: <EventosPage /> },
+    { path:'/contacto', element: <ContactoPage /> },
+    { path:'/rider', element: <RiderPage /> },
+    { path:'/cache', element: <CachePage /> },
+  ]
+  }
+])
 
 function App() {
   return (
-    <div>
-      <BannerHome />
-      <DescripcionHome />
-      <IntegrantesHome />
-    </div>
+    <div className="container-fluid">      
+      <RouterProvider router={router} />
+    </div>    
   );
 }
 
