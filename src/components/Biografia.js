@@ -24,7 +24,7 @@ function Biografia() {
             <div className="col-lg-6 my-5 my-lg-0">
                 <p>Actualmente Chatarra lo forman:</p>
                 <p><strong>Dario:</strong> &#32; Bajo y coros.</p>
-                <p><strong>Rodrigo:</strong> &#32; Batería.</p>
+                <p><strong>RodMetaL:</strong> &#32; Batería.</p>
                 <p><strong>Chus:</strong> &#32; Voz y guitarra.</p>
                 <p><strong>Dario</strong>, el bajista italiano afincado en Barcelona ciudad e influenciado por el Rock mas pesado y potente tal como Stoner rock hasta sonidos más cercanos al metal extremo. Es un bajista contundente y sin contemplaciones que también aporta al sonido de la banda como corista.</p>
                 <p><strong>Rodrigo</strong>, el baterista chileno también residente en Barcelona ciudad e influenciado por sonidos que van desde el Punk Rock hasta el Power Metal mas sofisticado, es por ello que se puede considerar un baterista potencialmente ecléctico, aporta a la banda una base rítmica poderosa a la vez que muy ordenada en cuanto al tempo se refiere.</p>
