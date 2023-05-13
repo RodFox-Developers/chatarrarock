@@ -15,6 +15,10 @@
   height: 100vh;
 }
 
+.login-form {
+  margin: 150px 0;
+}
+
 /* NAVBAR */
 
 .logo-nav {

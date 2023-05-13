@@ -10,6 +10,7 @@ import RiderPage from './pages/RiderPage';
 import CachePage from './pages/CachePage';
 import RootLayout from './pages/RootLayout';
 import ErrorPage from './pages/ErrorPage';
+import AuthPage from './pages/AuthPage';
 
 
 
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
     { path:'/contacto', element: <ContactoPage /> },
     { path:'/rider', element: <RiderPage /> },
     { path:'/cache', element: <CachePage /> },
+    { path:'/login', element: <AuthPage /> }
   ]
   }
 ])
