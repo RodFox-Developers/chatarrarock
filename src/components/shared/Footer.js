@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer id="footer">
@@ -117,6 +119,7 @@ function Footer() {
       <div className="row">
         <div className="col-lg-12 text-center py-3 bg-light">
           <small>Copyright © 2020, Chatarra. All rights reserved.</small>
+          <Link to="/login" className="ml-1"><small>Backoffice</small></Link>
         </div>
       </div>
     </footer>
