@@ -55,7 +55,7 @@ nav .nav-link:hover, nav .nav-link.active {
 } */
 
 #header {
-  background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2FhomeBanner.jpg?alt=media&token=8ab23c37-56cb-4204-89ed-ccca1bd6dd8c') no-repeat center bottom;    
+  background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fhome-banner.png?alt=media&token=52532f31-8be5-4f1c-a9f8-7808a9431e5a') no-repeat center bottom;    
   height: 100%;    
   -ms-background-size: cover;
   -webkit-background-size: cover;
