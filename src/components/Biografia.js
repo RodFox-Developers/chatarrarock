@@ -5,17 +5,17 @@ function Biografia() {
         <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-band.jpg?alt=media&token=d346634c-504c-454d-89bf-bc9687552f76" className="img-fluid img-band" alt="Chatarra Rock"></img>                       
         <div id="biografia" className="row">
             <div className="col-12 text-center my-5">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
                 <h1 className="d-inline mx-4">Biografía</h1>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
         </div>
         <hr/>
         <div className="row mb-5 justify-content-around">
             <div className="col-lg-12 mb-5 text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
                 <h3 className="d-inline mx-4">Formación actual (2020)</h3>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
             <div className="col-lg-4">
             <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra01.jpg?alt=media&token=d4efcaa9-d3ad-4b78-8f6e-2a65479d02e2" alt="chatarra band" className="img-fluid rounded"></img>
@@ -35,9 +35,9 @@ function Biografia() {
         <hr/>
         <div className="row mb-5 justify-content-around">
             <div className="col-lg-12 mb-5 text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
                 <h3 className="d-inline mx-4">Quinta Formación (2010-2016)</h3>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
             <div className="col-lg-6 my-5 my-lg-0">
                 <p>Con la marcha de Chus a vivir a la Costa Dorada, mas concretamente a El Vendrell, este tuvo que buscar nueva base ritmica para la banda.</p>
@@ -52,9 +52,9 @@ function Biografia() {
         <hr/>
         <div className="row mb-5 justify-content-around">
             <div className="col-lg-12 mb-5 text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
                 <h3 className="d-inline mx-4">Cuarta Formación (2005-2010)</h3>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
             <div className="col-lg-4">
                 <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-cuarta-formacion.jpeg?alt=media&token=827dd7b8-3a96-4368-8e52-f74bc27d8e76" alt="chatarra band" className="img-fluid"></img>
@@ -67,9 +67,9 @@ function Biografia() {
         <hr/>
         <div className="row mb-5 justify-content-around">
             <div className="col-lg-12 mb-5 text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
                 <h3 className="d-inline mx-4">Tercera Formación (2004)</h3>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
             <div className="col-lg-6 my-5 my-lg-0">
                 <p>Con esta tercera formación y con el abandono de Santos a la batería, Óscar y Chus incorporan a José Rivera. Batería natural de Gavà y conocido de ellos por moverse en los mismos círculos del rock del Baix Llobregat.</p>
@@ -83,9 +83,9 @@ function Biografia() {
         <hr/>
         <div className="row mb-5 justify-content-around">
             <div className="col-lg-12 mb-5 text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
                 <h3 className="d-inline mx-4">Segunda Formación (2003)</h3>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
             <div className="col-lg-4">
             <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-segunda-formacion.jpg?alt=media&token=cb12a1fc-db67-4c69-84a4-d655331d5057" alt="chatarra band" className="img-fluid rounded"></img>
@@ -99,9 +99,9 @@ function Biografia() {
         <hr/>
         <div className="row mb-5 justify-content-around">
             <div className="col-lg-12 mb-5 text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
                 <h3 className="d-inline mx-4">Primera Formación (2000-2002)</h3>
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" className="img-fluid estrella"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
             <div className="col-lg-6 my-5 my-lg-0">
                 <p> En el verano del 2000, tres jóvenes de Gavà ( Barcelona ) se juntaban para dar vida a Chatarra.</p>
