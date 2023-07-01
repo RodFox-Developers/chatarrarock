@@ -132,8 +132,8 @@ nav .nav-link:hover, nav .nav-link.active {
 
 /* DISCOGRAFIA */
 
-.bg-paper02 {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Falice-donovan-rouse-yu68fUQDvOI-unsplash.jpg?alt=media&token=095e5b61-3a67-4d61-bb6d-6742e39e6dcd') no-repeat center center;
+.bg-discografia {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-disco.png?alt=media&token=fdaa25e1-2e22-4aa6-b7a1-2d23da8408cb') no-repeat center center;
   height: 100%;
   background-attachment: fixed;
   -ms-background-size: cover;
