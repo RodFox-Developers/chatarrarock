@@ -18,17 +18,6 @@ function Rider() {
               Ver Rider Técnico
             </a>
           </div>
-          <div className="col-lg-12 text-center mt-5">
-            <a
-              href="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Frider%2Frider-2023-03-20.pdf?alt=media&token=88a42651-994c-4ba0-99e4-9b3f6d53050d"
-              className="btn btn-secondary"
-              download="Chatarra - rider"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Descargar Rider Técnico
-            </a>
-          </div>
         </div>
       </>
     );

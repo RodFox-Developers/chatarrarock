@@ -200,7 +200,7 @@ max-width: 150px;
 /* Rider */
 
 .bg-rider {
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Frider%2Fchatarra%20-%20sesion%20-%20jpg-139.jpg?alt=media&token=c185fab6-c24b-4648-b1d6-59762130f4a3') no-repeat center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-rider.png?alt=media&token=fd218384-91b3-4609-b774-3dbb84e03589') no-repeat center center;
   height: 80vh;
   -ms-background-size: cover;
   -webkit-background-size: cover;
