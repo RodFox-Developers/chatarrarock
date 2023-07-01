@@ -159,8 +159,8 @@ nav .nav-link:hover, nav .nav-link.active {
 
 /* VIDEOS */
 
-.bg-paper03 {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fmanolo-chretien-RpC-9e0ORNM-unsplash.jpg?alt=media&token=0a43f41c-98de-4a53-b7f1-79d76bc8ce40') no-repeat center center;
+.bg-videos {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-videos.png?alt=media&token=deba778c-0296-435b-8ba8-0d98c9084b03') no-repeat center center;
   height: 100%;
   background-attachment: fixed;
   -ms-background-size: cover;
