@@ -77,8 +77,8 @@ nav .nav-link:hover, nav .nav-link.active {
   width: 30%;
 }
 
-#sala {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-speakers.jpg?alt=media&token=39d9eb6d-1734-4471-8db0-865f6d2928cb') no-repeat center center;
+#integrantes {
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-integrantes.png?alt=media&token=9895f640-68a2-4a4e-ae0d-756ac245d31c') no-repeat center center;
   -ms-background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

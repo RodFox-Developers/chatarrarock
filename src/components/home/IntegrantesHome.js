@@ -1,6 +1,6 @@
 function IntegrantesHome() {
   return (
-    <div id="sala" className="row justify-content-around py-5 my-5">
+    <div id="integrantes" className="row justify-content-around py-5 my-5">
       <div className="col-lg-3">
         <div className="card border-dark bg-dark text-light text-center mx-lg-0 mx-5">
           <div id="bg-guitarrista" className="card-body"></div>
