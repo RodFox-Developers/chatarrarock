@@ -2,7 +2,7 @@ function Biografia() {
 
     return (
       <section> 
-        <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-band.jpg?alt=media&token=d346634c-504c-454d-89bf-bc9687552f76" className="img-fluid img-band" alt="Chatarra Rock"></img>                       
+        <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-bio.png?alt=media&token=14ae1a7f-cb4c-47a6-bbc8-3530fdcec8f1" className="img-fluid img-band" alt="Chatarra Rock"></img>                       
         <div id="biografia" className="row">
             <div className="col-12 text-center my-5">
                 <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
@@ -18,7 +18,7 @@ function Biografia() {
                 <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
             <div className="col-lg-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra01.jpg?alt=media&token=d4efcaa9-d3ad-4b78-8f6e-2a65479d02e2" alt="chatarra band" className="img-fluid rounded"></img>
+            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fchatarra-sexta-formacion.png?alt=media&token=e8306913-379e-41f6-8270-9728a4ef3e18" alt="chatarra band" className="img-fluid rounded"></img>
             </div>
 
             <div className="col-lg-6 my-5 my-lg-0">
@@ -46,7 +46,7 @@ function Biografia() {
                 <p>Con esta formación que duró unos seis años mas o menos, registrarón un par de discos en directo (uno de ellos con video), un LP “Estrellaos del Rocanrol” y otro disco más en directo, pero esta vez en directo en estudio.</p>
             </div>
             <div className="col-lg-4">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-quinta-formacion.jpeg?alt=media&token=f596228e-29ed-44af-92b7-ff9c8767bf17" alt="chatarra band" className="img-fluid"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fchatarra-quinta-formacion.png?alt=media&token=02a944cb-385c-47c1-8f20-44c7a323655a" alt="chatarra band" className="img-fluid"></img>
             </div>
         </div>
         <hr/>
@@ -57,7 +57,7 @@ function Biografia() {
                 <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
             <div className="col-lg-4">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-cuarta-formacion.jpeg?alt=media&token=827dd7b8-3a96-4368-8e52-f74bc27d8e76" alt="chatarra band" className="img-fluid"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fchatarra-cuarta-formacion.png?alt=media&token=46b0138d-7fdd-477f-a33c-48dca6467cf0" alt="chatarra band" className="img-fluid"></img>
             </div>
             <div className="col-lg-6 my-5 my-lg-0">
                 <p>Con la incorporación de Jordi a la batería, la banda realizó multiples actuaciones sobre todo en Barcelona y alrededores, llegando a registrar un video/concierto en directo en una sala en BCN, de este disco no existe copia alguna pues el organizador se llevó el master y jamas se supo de él, es una pena porque fue toda una actuación registrada en audio y video con esta formación que estuvo junta casi cinco años (habría sido un buen recuerdo).</p>
@@ -77,7 +77,7 @@ function Biografia() {
                 <p>José en el tiempo que militó en Chatarra aporto mucho y enseñó a Óscar y Chus a mantener una disciplina en horarios, ensayos y a realizar canciones más ordenadas. Fue un trago muy duro para Chusaco y Óscar tener que sustituirlo por Jordi Rodenas (Hermano pequeño de Chus). Por ser un tío tan disciplinado, educado, trabajador y en definitiva un gran amigo con el que pasaron muy buenos momentos. Fue por el sonido por lo que decidieron sustituirlo después de mucho meditarlo. Óscar y Chus necesitaban en esos momentos un batería más agresivo, para el ideario del sonido al que aspiraban a conseguir y José era demasiado correcto para lo que ellos ambicionaban. Así que decidieron sustituirlo por Jordi, que, aunque no poseía la técnica que José, si imprimía más violencia a la batería, ya que era un batería más influenciado por el heavy metal más internacional y bandas poderosas de hard rock como Mötley Crüe etc,etc...</p>
             </div>
             <div className="col-lg-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-tercera-formacion.jpeg?alt=media&token=6884e681-2db0-4f37-8229-82cd00d9037c" alt="chatarra band" className="img-fluid border border-dark rounded"></img>
+            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fchatarra-tercera-formacion.png?alt=media&token=daff42e7-b724-4c58-8c75-e5547057539a" alt="chatarra band" className="img-fluid border border-dark rounded"></img>
             </div>
         </div>
         <hr/>
@@ -88,7 +88,7 @@ function Biografia() {
                 <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
             <div className="col-lg-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-segunda-formacion.jpg?alt=media&token=cb12a1fc-db67-4c69-84a4-d655331d5057" alt="chatarra band" className="img-fluid rounded"></img>
+            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fchatarra-segunda-formacion.png?alt=media&token=3e83b253-9b91-4f49-91ee-b2d5308ccdeb" alt="chatarra band" className="img-fluid rounded"></img>
             </div>
 
             <div className="col-lg-6 my-5 my-lg-0">
@@ -112,7 +112,7 @@ function Biografia() {
                 <p>Poco después de que este disco viese la luz , Luichi decidió abandonar la banda para experimentar nuevos ritmos y pasó a formar parte de la veterana banda del baix Llobregat Neurastenia.  </p>
             </div>
             <div className="col-lg-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-primera-formacion.jpg?alt=media&token=8d3c67b7-759d-4dd4-8422-f8b18d7dfd2f" alt="chatarra band" className="img-fluid border border-dark rounded"></img>
+            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fchatarra-primera-formacion.png?alt=media&token=33122282-33bf-4221-85b4-a00c1356e968" alt="chatarra band" className="img-fluid border border-dark rounded"></img>
             </div>
         </div>
     </section>
