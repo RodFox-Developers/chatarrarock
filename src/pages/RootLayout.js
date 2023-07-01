@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 import MainNavigation from "../components/shared/MainNavigation";
 import Footer from "../components/shared/Footer";
 
@@ -7,11 +7,17 @@ function RootLayout() {
     <>
       <MainNavigation />
       <main>
+        <ScrollRestoration
+          getKey={(location, matches) => {
+            // default behavior
+            return location.key;
+          }}
+        />
         <Outlet />
-      </main>  
-      <Footer />    
+      </main>
+      <Footer />
     </>
-  )
+  );
 }
 
 export default RootLayout;
