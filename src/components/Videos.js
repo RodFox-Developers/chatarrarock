@@ -16,11 +16,10 @@ const Videos = (props) => {
         <LoadingSpinner />
       ) : (
         videos.map((video) => (
-          <div className="row my-5 justify-content-center">
+          <div className="row my-5 justify-content-center" key={Math.random() * 6}>
             <div className="col-lg-6">
               <div className="embed-responsive embed-responsive-16by9">
-                <iframe
-                  key={Math.random() * 6}
+                <iframe                  
                   title="Videos Chatarra Rock"
                   className="embed-responsive-item"
                   width="100%"
