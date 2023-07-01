@@ -24,13 +24,13 @@ function Eventos() {
             <h4 className="text-muted">¡¡¡Síguenos en!!!</h4>
             <nav className="nav justify-content-center my-4">
               <a
-                href="https://www.bandsintown.com/a/580527-chatarra"
+                href="https://www.songkick.com/artists/10193521-chatarra"
                 target="_blank"
                 rel="noreferrer"
                 className="m-4"
               >
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2FEventos%2FSongkick_logo.jpg?alt=media&token=92ce0005-1e71-435c-b77a-8dcc73f0c167"
+                  src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fsongkick.png?alt=media&token=d5134bff-782f-41da-b9f6-5d31c6a8dd72"
                   alt="logo songkick"
                   className="logo-songkick"
                 />
