@@ -118,7 +118,7 @@ function Contacto() {
               title="Jamendo"
             >
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fjamendo-logo-btn.png?alt=media&token=856c26db-4ce5-479f-a09a-d51d9eda1a02"
+                src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fjamendo.png?alt=media&token=92ee56eb-578f-4753-831a-2b88dc7f06f8"
                 className="img-fluid my-1"
                 alt="jamendo logo"
                 style={{ maxWidth: "100px" }}
