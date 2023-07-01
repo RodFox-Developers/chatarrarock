@@ -187,8 +187,8 @@ max-width: 150px;
 
 /* CONTACTO */
 
-.bg-paper01 {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fdan-cristian-padure-A3GeHVMmSdU-unsplash.jpg?alt=media&token=c7aca84e-a0d6-49d9-a566-b9b5a940ef0e') no-repeat center center;
+.bg-contacto-cache {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-contacto-cache.png?alt=media&token=7511a8de-96ed-4a35-a3a8-23aec8264e10') no-repeat center center;
   height: 100%;
   -ms-background-size: cover;
   -webkit-background-size: cover;

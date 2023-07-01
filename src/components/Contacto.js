@@ -1,7 +1,7 @@
 function Contacto() {
 
     return (
-      <section className="bg-paper01 py-5">
+      <section className="bg-contacto-cache py-5">
         <div className="row">
           <div className="col-lg-12 my-5 text-center">
             <img
