@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chatarrarock/static/css/main.cc1459c4.css",
+    "main.js": "/chatarrarock/static/js/main.cf5f6fa1.js",
+    "static/js/787.7a3c2cd8.chunk.js": "/chatarrarock/static/js/787.7a3c2cd8.chunk.js",
+    "index.html": "/chatarrarock/index.html",
+    "main.cc1459c4.css.map": "/chatarrarock/static/css/main.cc1459c4.css.map",
+    "main.cf5f6fa1.js.map": "/chatarrarock/static/js/main.cf5f6fa1.js.map",
+    "787.7a3c2cd8.chunk.js.map": "/chatarrarock/static/js/787.7a3c2cd8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc1459c4.css",
+    "static/js/main.cf5f6fa1.js"
+  ]
+}
