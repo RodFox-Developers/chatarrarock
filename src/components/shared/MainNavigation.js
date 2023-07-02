@@ -20,7 +20,7 @@ function MainNavigation() {
         </button>
         <div className="navbar-brand ml-sm-5">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-chatarra.png?alt=media&token=0eb35722-dc14-42d1-ac4a-fb47bdcd1fab"
+            src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-chatarra.png?alt=media&token=26c1dfd3-4a8f-4b7a-b399-ee9fa3138a17"
             alt="logo chatarra rock"
             className="d-inline-block align-top logo-nav"
           />

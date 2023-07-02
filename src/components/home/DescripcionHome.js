@@ -3,7 +3,7 @@ function DescripcionHome() {
     <section>
         <div className="row mt-5">
             <div className="col-12 text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fchatarra-header.png?alt=media&amp;token=06cad4d3-0a4f-46de-964e-fbda566603a5" alt="chatarra band" className="img-fluid logo-bio" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fchatarra-header.png?alt=media&token=b3519020-de20-4d8b-9d9a-2f97f87957a6" alt="chatarra band" className="img-fluid logo-bio" />
             </div>
         </div>
         <div className="row justify-content-center">

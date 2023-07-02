@@ -16,10 +16,9 @@ function Discografia(props) {
         <LoadingSpinner />
       ) : (
         discografia.map((album) => (
-          <div className="row justify-content-center my-5">
+          <div className="row justify-content-center my-5" key={Math.random() * 6}>
             <div className="col-md-8 col-lg-6">
-              <iframe
-                key={Math.random() * 6}
+              <iframe                
                 title="Discografía Chatarra Rock"
                 style={{ borderRadius: "12px" }}
                 src={`https://open.spotify.com/embed/album/${album.id}`}

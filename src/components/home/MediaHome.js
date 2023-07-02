@@ -6,19 +6,19 @@ function MediaHome() {
         </div>
         <div className="col-12 social-logos text-center">
             <a href="https://www.youtube.com/channel/UCSrQ7KZ_VdEGsE53ALl-Z-g" target="_blank" rel="noreferrer">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2FYouTube_Logo.svg.png?alt=media&token=0f4e7ad5-f8a2-4b62-b7ae-073c7615ba06" className="img-fluid mx-5" alt="youtube logo"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fyoutube.png?alt=media&token=eec3c9ba-8213-4526-a648-d135d1105614" className="img-fluid mx-5" alt="youtube logo"></img>
             </a>  
             <a href="https://open.spotify.com/artist/7AtmpUfNKk9jraaAoOv9Da" target="_blank" rel="noreferrer">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fspotify.png?alt=media&token=4066f0dd-3ef8-4c08-b00d-b2db0b212df5" className="img-fluid mx-5 mt-5 mt-sm-0" alt="spotify logo"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fspotify.png?alt=media&token=919631ae-7134-432f-8234-7b079f58ce07" className="img-fluid mx-5 mt-5 mt-sm-0" alt="spotify logo"></img>
             </a> 
             <a href="https://soundcloud.com/chatarra-rock" target="_blank" rel="noreferrer">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2FSoundcloud.png?alt=media&token=d118ea0f-ef99-42ad-a099-a9abf7188262" className="img-fluid mx-5 mt-5 mt-sm-0" alt="Soundcloud logo"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fsoundcloud.png?alt=media&token=78244392-93d0-43c9-b9f9-c45216e201e0" className="img-fluid mx-5 mt-5 mt-sm-0" alt="Soundcloud logo"></img>
             </a> 
             <a href="https://www.jamendo.com/artist/342136/chatarra" target="_blank" rel="noreferrer">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fjamendo-logo.svg?alt=media&token=3706f919-2482-45d4-9594-bf9f0940c8fd" className="img-fluid mx-5 mt-5 mt-sm-0" alt="jamendo logo"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fjamendo.png?alt=media&token=92ee56eb-578f-4753-831a-2b88dc7f06f8" className="img-fluid mx-5 mt-5 mt-sm-0" alt="jamendo logo"></img>
             </a> 
             <a href="https://chatarra.bandcamp.com/" target="_blank" rel="noreferrer">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbandcamp-logo.png?alt=media&token=759d2978-4c3f-445b-bacc-03127628a3fb" className="img-fluid mx-5 mt-5 mt-sm-0" alt="bandcamp logo"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbandcamp.png?alt=media&token=8adddec7-1832-4d7a-abca-6f6bda54f308" className="img-fluid mx-5 mt-5 mt-sm-0" alt="bandcamp logo"></img>
             </a> 
         </div>
     </div>

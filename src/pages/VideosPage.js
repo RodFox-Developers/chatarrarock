@@ -6,7 +6,7 @@ function VideosPage() {
   const { playlists, isLoading, error } = useYoutube();
 
   return (
-    <section id="videoclips" className="bg-paper03 py-5">
+    <section id="videoclips" className="bg-videos py-5">
       {error ? (
         <AlertsBanner msg={error} type="danger" />
       ) : (

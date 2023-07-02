@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer id="footer">
@@ -10,7 +12,7 @@ function Footer() {
             rel="noreferrer"
           >
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2FFooter%2FImagen%20de%20WhatsApp%202023-02-11%20a%20las%2020.06.18%20-%20copia.jpg?alt=media&token=8d0ce776-05cc-44e0-bd24-bd1ed0bf6a21"
+              src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fmerchatarra.png?alt=media&token=37f42a98-4389-4b4d-a164-51fcaf9d12de"
               className="img-fluid merchatarra"
               alt="merchatarra"
             />
@@ -73,7 +75,7 @@ function Footer() {
             rel="noreferrer"
           >
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fjamendo-logo-btn.png?alt=media&token=856c26db-4ce5-479f-a09a-d51d9eda1a02"
+              src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fjamendo.png?alt=media&token=92ee56eb-578f-4753-831a-2b88dc7f06f8"
               className="img-fluid my-1"
               alt="jamendo logo"
               style={{maxWidth: '30px'}}
@@ -117,6 +119,7 @@ function Footer() {
       <div className="row">
         <div className="col-lg-12 text-center py-3 bg-light">
           <small>Copyright © 2020, Chatarra. All rights reserved.</small>
+          {/* <Link to="/login" className="ml-1"><small>Backoffice</small></Link> */}
         </div>
       </div>
     </footer>

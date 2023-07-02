@@ -6,7 +6,7 @@ function DiscografiaPage() {
   const { albums, isLoading, error } = useSpotify();
 
   return (
-    <section id="albumes" className="bg-paper02 py-5">
+    <section id="albumes" className="bg-discografia py-5">
       {error ? (
         <AlertsBanner msg={error} type="danger" />
       ) : (

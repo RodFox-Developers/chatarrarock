@@ -1,17 +1,17 @@
 function Contacto() {
 
     return (
-      <section className="bg-paper01 py-5">
+      <section className="bg-contacto-cache py-5">
         <div className="row">
           <div className="col-lg-12 my-5 text-center">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08"
+              src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173"
               alt="estrella chatarra"
               className="img-fluid estrella"
             />
             <h3 className="d-inline mx-4">Contacto</h3>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08"
+              src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173"
               alt="estrella chatarra"
               className="img-fluid estrella"
             />
@@ -118,7 +118,7 @@ function Contacto() {
               title="Jamendo"
             >
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fjamendo-logo-btn.png?alt=media&token=856c26db-4ce5-479f-a09a-d51d9eda1a02"
+                src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fjamendo.png?alt=media&token=92ee56eb-578f-4753-831a-2b88dc7f06f8"
                 className="img-fluid my-1"
                 alt="jamendo logo"
                 style={{ maxWidth: "100px" }}
