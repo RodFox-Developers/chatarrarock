@@ -108,5 +108,12 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(document).ready(function () {
+        $(".hide-toggle-navbar").on("click", function () {
+          $(".navbar-collapse").collapse("hide");
+        });
+      });
+    </script>
   </body>
 </html>
