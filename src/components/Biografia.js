@@ -2,7 +2,7 @@ function Biografia() {
 
     return (
       <section> 
-        <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-bio.png?alt=media&token=14ae1a7f-cb4c-47a6-bbc8-3530fdcec8f1" className="img-fluid img-band w-100" alt="Chatarra Rock"></img>                       
+        <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-bio.jpg?alt=media&token=acffc15a-13ed-40f0-9971-7bf87e59c383" className="img-fluid img-band w-100" alt="Chatarra Rock"></img>                       
         <div id="biografia" className="row">
             <div className="col-12 text-center my-5">
                 <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
@@ -18,7 +18,7 @@ function Biografia() {
                 <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173" alt="estrella chatarra" className="img-fluid estrella"></img>
             </div>
             <div className="col-lg-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fchatarra-sexta-formacion.png?alt=media&token=e8306913-379e-41f6-8270-9728a4ef3e18" alt="chatarra band" className="img-fluid rounded w-100"></img>
+            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fchatarra-sexta-formacion.jpg?alt=media&token=7738b3a2-2767-4252-af35-b8ddac8d1e91" alt="chatarra band" className="img-fluid rounded w-100"></img>
             </div>
 
             <div className="col-lg-6 my-5 my-lg-0">
@@ -77,7 +77,7 @@ function Biografia() {
                 <p>José en el tiempo que militó en Chatarra aporto mucho y enseñó a Óscar y Chus a mantener una disciplina en horarios, ensayos y a realizar canciones más ordenadas. Fue un trago muy duro para Chusaco y Óscar tener que sustituirlo por Jordi Rodenas (Hermano pequeño de Chus). Por ser un tío tan disciplinado, educado, trabajador y en definitiva un gran amigo con el que pasaron muy buenos momentos. Fue por el sonido por lo que decidieron sustituirlo después de mucho meditarlo. Óscar y Chus necesitaban en esos momentos un batería más agresivo, para el ideario del sonido al que aspiraban a conseguir y José era demasiado correcto para lo que ellos ambicionaban. Así que decidieron sustituirlo por Jordi, que, aunque no poseía la técnica que José, si imprimía más violencia a la batería, ya que era un batería más influenciado por el heavy metal más internacional y bandas poderosas de hard rock como Mötley Crüe etc,etc...</p>
             </div>
             <div className="col-lg-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fchatarra-tercera-formacion.png?alt=media&token=daff42e7-b724-4c58-8c75-e5547057539a" alt="chatarra band" className="img-fluid border border-dark rounded w-100"></img>
+            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fchatarra-tercera-formacion.jpg?alt=media&token=6bb0836e-9199-4274-b3dc-c784fc679d99" alt="chatarra band" className="img-fluid border border-dark rounded w-100"></img>
             </div>
         </div>
         <hr/>
@@ -112,7 +112,7 @@ function Biografia() {
                 <p>Poco después de que este disco viese la luz , Luichi decidió abandonar la banda para experimentar nuevos ritmos y pasó a formar parte de la veterana banda del baix Llobregat Neurastenia.  </p>
             </div>
             <div className="col-lg-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fchatarra-primera-formacion.png?alt=media&token=33122282-33bf-4221-85b4-a00c1356e968" alt="chatarra band" className="img-fluid border border-dark rounded w-100"></img>
+            <img src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fchatarra-primera-formacion.jpg?alt=media&token=636d2a4b-0ffd-4036-96c5-d2c0a7e9ef57" alt="chatarra band" className="img-fluid border border-dark rounded w-100"></img>
             </div>
         </div>
     </section>

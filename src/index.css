@@ -55,7 +55,7 @@ nav .nav-link:hover, nav .nav-link.active {
 } */
 
 #header {
-  background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fhome-banner.png?alt=media&token=52532f31-8be5-4f1c-a9f8-7808a9431e5a') no-repeat center bottom;    
+  background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fhome-banner.jpg?alt=media&token=7118943d-4d50-4714-a5d1-d7bc216b65cc') no-repeat center bottom;    
   height: 100%;    
   -ms-background-size: cover;
   -webkit-background-size: cover;
@@ -78,7 +78,7 @@ nav .nav-link:hover, nav .nav-link.active {
 }
 
 #integrantes {
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-integrantes.png?alt=media&token=9895f640-68a2-4a4e-ae0d-756ac245d31c') no-repeat center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-integrantes.jpg?alt=media&token=8c1e5dde-e68c-4205-973d-4706d7d3a19c') no-repeat center center;
   -ms-background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -133,7 +133,7 @@ nav .nav-link:hover, nav .nav-link.active {
 /* DISCOGRAFIA */
 
 .bg-discografia {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-disco.png?alt=media&token=fdaa25e1-2e22-4aa6-b7a1-2d23da8408cb') no-repeat center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-disco.jpg?alt=media&token=29e2d2ea-44f9-46cf-bd00-2346a00ff5ca') no-repeat center center;
   height: 100%;
   background-attachment: fixed;
   -ms-background-size: cover;
@@ -160,7 +160,7 @@ nav .nav-link:hover, nav .nav-link.active {
 /* VIDEOS */
 
 .bg-videos {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-videos.png?alt=media&token=deba778c-0296-435b-8ba8-0d98c9084b03') no-repeat center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-videos.jpg?alt=media&token=2bf1c039-686f-4bf4-ae67-6677cba5290d') no-repeat center center;
   height: 100%;
   background-attachment: fixed;
   -ms-background-size: cover;
@@ -188,7 +188,7 @@ max-width: 150px;
 /* CONTACTO */
 
 .bg-contacto-cache {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-contacto-cache.png?alt=media&token=7511a8de-96ed-4a35-a3a8-23aec8264e10') no-repeat center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-contacto-cache.jpg?alt=media&token=f321e4e5-185a-4653-8a95-decd24574ab4') no-repeat center center;
   height: 100%;
   -ms-background-size: cover;
   -webkit-background-size: cover;
@@ -200,7 +200,7 @@ max-width: 150px;
 /* Rider */
 
 .bg-rider {
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-rider.png?alt=media&token=fd218384-91b3-4609-b774-3dbb84e03589') no-repeat center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-rider.jpg?alt=media&token=2b5392ab-f8cd-40c0-980a-d29b6690a20d') no-repeat center center;
   height: 80vh;
   -ms-background-size: cover;
   -webkit-background-size: cover;
