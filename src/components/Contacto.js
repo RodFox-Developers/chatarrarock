@@ -56,8 +56,8 @@ function Contacto() {
           <div className="col-lg-12 text-primary fa-size my-5">
             <i className="far fa-envelope fa-4x"></i>
             <h4>
-              <a href="mailto:chatarrarock@protonmail.com">
-                chatarrarock@protonmail.com
+              <a href="mailto:chatarrarock@gmail.com">
+                chatarrarock@gmail.com
               </a>
             </h4>
           </div>
