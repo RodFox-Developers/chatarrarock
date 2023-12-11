@@ -60,16 +60,6 @@ function MainNavigation() {
                 Contacto
               </NavLink>
             </li>
-            <li id="merch" className="nav-item mx-3">
-              <a
-                href="http://www.musikaze.com/chatarra-store"
-                className="nav-link contacto hide-toggle-navbar"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Merch
-              </a>
-            </li>
           </ul>
         </div>
         <a
