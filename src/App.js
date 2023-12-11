@@ -10,6 +10,10 @@ import RiderPage from "./pages/RiderPage";
 import CachePage from "./pages/CachePage";
 import RootLayout from "./pages/RootLayout";
 import ErrorPage from "./pages/ErrorPage";
+import AuthPage from "./pages/AuthPage";
+import AdminDashboardPage from "./pages/AdminDashboardPage";
+import AdminInicio from "./components/admin/AdminInicio";
+import AdminBio from "./components/admin/AdminBio";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +28,15 @@ const router = createBrowserRouter([
       { path: "/eventos", element: <EventosPage /> },
       { path: "/contacto", element: <ContactoPage /> },
       { path: "/rider", element: <RiderPage /> },
-      { path: "/cache", element: <CachePage /> }
+      { path: "/cache", element: <CachePage /> },
+      { path: "/login", element: <AuthPage /> },
+      { path: "/admin",
+        element: <AdminDashboardPage />,        
+        children: [
+          { path: "/admin", element: <AdminInicio /> },
+          { path: "/admin/bio", element: <AdminBio /> }
+        ] 
+      }
     ],
   },
 
