@@ -4,22 +4,7 @@ function Footer() {
   return (
     <footer id="footer">
       <div className="row bg-light text-center text-primary py-5 align-items-center">
-        <div className="col-lg-6">
-          <a
-            href="http://www.musikaze.com/chatarra-store"
-            className="text-decoration-none"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fmerchatarra.png?alt=media&token=37f42a98-4389-4b4d-a164-51fcaf9d12de"
-              className="img-fluid merchatarra"
-              alt="merchatarra"
-            />
-            <h3 className="align-middle mt-3">Visita nuestra Tienda Online!</h3>
-          </a>
-        </div>
-        <div className="col-lg-6 mt-5 mt-lg-0">
+        <div className="col-lg-12 mt-5 mt-lg-0">
           <h3 className="align-middle">Síguenos en nuestras Redes Sociales!</h3>
           <a
             href="https://www.youtube.com/channel/UCSrQ7KZ_VdEGsE53ALl-Z-g"
