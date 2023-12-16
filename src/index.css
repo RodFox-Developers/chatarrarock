@@ -274,6 +274,9 @@ max-width: 150px;
 }
 
 @media only screen and (max-width: 576px) {
+  .logo-bio {
+    width: 70%;
+  }
   .bg-paper02 {
       background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Falice-donovan-rouse-yu68fUQDvOI-unsplash.jpg?alt=media&token=095e5b61-3a67-4d61-bb6d-6742e39e6dcd') no-repeat center center;
       height: 100%;
