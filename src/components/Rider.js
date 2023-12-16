@@ -3,7 +3,7 @@ function Rider() {
     return (
       <>
         <div className="row">
-          <div className="col-lg-12 text-center bg-rider pt-5">
+          <div className="col-lg-12 text-center bg-rider">
             <h1 className="display-2 font-weight-bold">Rider Técnico</h1>
           </div>
         </div>
