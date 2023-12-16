@@ -109,7 +109,7 @@ nav .nav-link:hover, nav .nav-link.active {
 }
 
 #bg-bajista {
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbajista.png?alt=media&token=891ab25e-d4b6-4577-a18d-85431c252804') no-repeat center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbajista.jpg?alt=media&token=ea96f120-8dd0-44c1-80ec-02af2c46258f') no-repeat center center;
   height: 30rem;
   -ms-background-size: contain;
   -webkit-background-size: contain;
