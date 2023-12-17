@@ -88,7 +88,7 @@ nav .nav-link:hover, nav .nav-link.active {
 }
 
 #bg-guitarrista {
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fguitarrista.png?alt=media&token=4ab5d849-24c0-4892-a20a-8f527d7185f7') no-repeat center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fguitarrista.jpg?alt=media&token=937eba0c-0100-45d5-bae5-3905de35bb57') no-repeat center center;
   height: 30rem;
   -ms-background-size: contain;
   -webkit-background-size: contain;
