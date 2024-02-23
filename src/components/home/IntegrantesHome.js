@@ -23,7 +23,7 @@ function IntegrantesHome() {
         <div className="card border-dark bg-dark text-light text-center mt-5 mt-lg-0 mx-lg-0 mx-5">
           <div id="bg-bajista" className="card-body"></div>
           <div className="text-band pt-3">
-            <h4>Dario</h4>
+            <h4>Gaby</h4>
             <p>Bajo y coros</p>
           </div>
         </div>
