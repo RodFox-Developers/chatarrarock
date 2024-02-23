@@ -27,7 +27,7 @@ function MainNavigation() {
         </div>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
-            <li id="inicio" className="nav-item mx-3 active">
+            <li id="inicio" className="nav-item mx-3">
               <NavLink to="/" className={`nav-link inicio hide-toggle-navbar ${activeNav}`} end  >
                 Inicio
               </NavLink>
