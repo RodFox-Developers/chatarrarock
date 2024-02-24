@@ -263,6 +263,10 @@ max-width: 150px;
   line-height: normal !important;
 }
 
+#CybotCookiebotDialogHeaderLogosWrapper {
+  display: none !important;
+}
+
 /* MEDIA QUERY */
 
 @media screen and (min-width: 992px) {
