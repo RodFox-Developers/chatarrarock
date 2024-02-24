@@ -242,6 +242,27 @@ max-width: 150px;
   font-size: 14px;
 }
 
+/* coockies */
+#CybotCookiebotDialog {
+  line-height: normal !important;
+}
+
+#CybotCookiebotDialog *, #CybotCookiebotDialogBodyUnderlay * {
+  font-size: 10px !important;
+}
+
+#CookiebotWidget, #CookiebotWidget * {
+  font-size: 10px !important;
+}
+
+#CybotCookiebotDialog.CybotEdge {
+  padding: 0.5rem !important;
+}
+
+#CybotCookiebotDialogBodyContent {
+  line-height: normal !important;
+}
+
 /* MEDIA QUERY */
 
 @media screen and (min-width: 992px) {
