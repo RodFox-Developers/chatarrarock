@@ -248,11 +248,11 @@ max-width: 150px;
 }
 
 #CybotCookiebotDialog *, #CybotCookiebotDialogBodyUnderlay * {
-  font-size: 10px !important;
+  font-size: 12px !important;
 }
 
 #CookiebotWidget, #CookiebotWidget * {
-  font-size: 10px !important;
+  font-size: 12px !important;
 }
 
 #CybotCookiebotDialog.CybotEdge {
@@ -263,7 +263,7 @@ max-width: 150px;
   line-height: normal !important;
 }
 
-#CybotCookiebotDialogHeaderLogosWrapper {
+#CybotCookiebotDialogHeaderLogosWrapper, .CookiebotWidget-main-logo {
   display: none !important;
 }
 
