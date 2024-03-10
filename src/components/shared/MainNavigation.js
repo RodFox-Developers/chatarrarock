@@ -63,7 +63,7 @@ function MainNavigation() {
           </ul>
         </div>
         <a
-          href="https://music.chatarrarock.com/socialmedia"
+          href="https://chatarra.fanlink.tv/socialmedia"
           target="_blank"
           className="btn btn-lg ml-3 p-0"
           rel="noreferrer"
