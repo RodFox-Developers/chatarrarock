@@ -20,7 +20,7 @@ function Contacto() {
         <div className="row text-center mb-5">
           <div className="col-lg-12">
             <a
-              href="https://www.youtube.com/channel/UCSrQ7KZ_VdEGsE53ALl-Z-g"
+              href="https://appurl.io/3r7LfdDgjo"
               target="_blank"
               rel="noreferrer"
               className="mx-5"
@@ -31,7 +31,7 @@ function Contacto() {
               <i className="fab fa-youtube-square fa-4x text-danger"></i>
             </a>
             <a
-              href="https://open.spotify.com/artist/7AtmpUfNKk9jraaAoOv9Da"
+              href="https://appurl.io/TzLcAIS-kx"
               target="_blank"
               rel="noreferrer"
               className="mx-5"
@@ -42,7 +42,7 @@ function Contacto() {
               <i className="fab fa-spotify fa-4x text-success"></i>
             </a>
             <a
-              href="https://soundcloud.com/chatarra-rock"
+              href="https://appurl.io/KSHH6WkWci"
               target="_blank"
               rel="noreferrer"
               className="mx-5"
@@ -63,7 +63,7 @@ function Contacto() {
           </div>
           <div className="col-lg-12 my-5 fa-size">
             <a
-              href="https://chatarra.bandcamp.com/"
+              href="https://appurl.io/x1MbsXtvao"
               target="_blank"
               rel="noreferrer"
               className="mx-5"
@@ -74,7 +74,7 @@ function Contacto() {
               <i className="fab fa-bandcamp fa-4x"></i>
             </a>
             <a
-              href="https://www.facebook.com/Chatarra-241987021881/"
+              href="https://appurl.io/MBeyKIjQSs"
               target="_blank"
               rel="noreferrer"
               className="mx-5"
@@ -85,7 +85,7 @@ function Contacto() {
               <i className="fab fa-facebook fa-4x text-primary"></i>
             </a>
             <a
-              href="https://www.instagram.com/Chatarrarock/"
+              href="https://appurl.io/w0cv1LLfpi"
               target="_blank"
               rel="noreferrer"
               className="mx-5"
@@ -96,7 +96,7 @@ function Contacto() {
               <i className="fab fa-instagram fa-4x text-danger mt-4"></i>
             </a>
             <a
-              href="https://twitter.com/ChatarraRock"
+              href="https://appurl.io/pgtJXuFv7H"
               target="_blank"
               rel="noreferrer"
               className="mx-5"
