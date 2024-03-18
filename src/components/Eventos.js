@@ -24,7 +24,7 @@ function Eventos() {
             <h4 className="text-muted">¡¡¡Síguenos en!!!</h4>
             <nav className="nav justify-content-center my-4">
               <a
-                href="https://www.songkick.com/artists/10193521-chatarra"
+                href="https://appurl.io/yPWi_Vv8TH"
                 target="_blank"
                 rel="noreferrer"
                 className="m-4"
@@ -83,7 +83,7 @@ function Eventos() {
                 </svg>
               </a>
               <a
-                href="https://www.facebook.com/ChatarraRockDuro/events"
+                href="https://appurl.io/kiIQ6cv6CU"
                 target="_blank"
                 rel="noreferrer"
                 className="m-4"
