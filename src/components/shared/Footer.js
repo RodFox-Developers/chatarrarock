@@ -1,6 +1,14 @@
-import { Link } from "react-router-dom";
-
 function Footer() {
+  const showCookieBanner = () => {
+    const cookieBanner = document.querySelector(
+      ".cky-consent-container.cky-classic-bottom"
+    );
+    if (cookieBanner) {
+      cookieBanner.classList.remove("cky-hide");
+      cookieBanner.classList.add("cky-consent-bar-expand");
+    }
+  };
+
   return (
     <footer id="footer">
       <div className="row bg-light text-center text-primary py-5 align-items-center">
@@ -63,7 +71,7 @@ function Footer() {
               src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fjamendo.png?alt=media&token=92ee56eb-578f-4753-831a-2b88dc7f06f8"
               className="img-fluid my-1"
               alt="jamendo logo"
-              style={{maxWidth: '30px'}}
+              style={{ maxWidth: "30px" }}
             />
           </a>
           <a
@@ -104,6 +112,16 @@ function Footer() {
       <div className="row">
         <div className="col-lg-12 text-center py-3 bg-light">
           <small>Copyright © 2020, Chatarra. All rights reserved.</small>
+          <p>
+            <a
+              role="button"
+              className="text-primary"
+              onClick={showCookieBanner}
+            >
+              <small>Preferencia de cookies</small>
+            </a>
+          </p>
+
           {/* <Link to="/login" className="ml-1"><small>Backoffice</small></Link> */}
         </div>
       </div>
